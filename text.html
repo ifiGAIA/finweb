@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedback</title>
+    <link href="text.css" type="text/css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.6.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+</head>
+
+<body>
+    <div class=v1>
+        <div><a href="index.html"><img class="logo" src="img/logo.png"></a></div>
+
+        <div class="nav_menu" id="side_btn" >
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav id="side_open">
+            <ul class="nav_list " >
+                <li class=v1-1><a href="introdution.html">INTRODUCTION</a></li>
+                <li class="line"></li>
+                <li class=v1-2><a href="story.html">STORY</a></li>
+                <li class="line"></li>
+                <li class=v1-3><a href="daily.html">DAILY</a></li>
+                <li class="line"></li>
+                <li class=v1-4><a href="text.html">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="dr1-1"> 
+        <p class="w1">&nbsp;&nbsp;FEEDBACK</p>
+        <span class="line1"></span>
+    </div>
+
+    <img class="in" src="img/-  FEEDBACK  -.png">
+    <img class="ball" src="img/球.png">
+
+    <div class="content">
+        <h4>NAME：<input id="name"></h4>
+        <br>
+        <div class="chat">
+            <div><h4>MESSAGE：<br></h4></div><div><textarea id="content" rows="8" cols="50"></textarea></div>
+        </div>
+        </br>
+            <button id="btn" class="bts" ><img src="img/enter.png"></button></br></br>
+            
+        <div id="show" class="shows"></div>
+        <div id="loading"></div>
+    </div>
+    <!-- <a href="#" class="aro">︽</a> -->
+    <button class="js-back-to-top aro"><img src="img/小火箭2.png" ></button>
+</body>
